@@ -1,0 +1,1816 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology"
+     xml:base="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:GDPR_Ontology="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#"
+     xmlns:Values_Map_Ontology="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#GDPR_Data_Subject_Rights"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#hasRights_Sub_Provisions_Derived_Link -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#hasRights_Sub_Provisions_Derived_Link">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#GDPR_Data_Protection_Principles"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#hasRights_Sub_Provisions_Direct_Link -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#hasRights_Sub_Provisions_Direct_Link">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#GDPR_Data_Protection_Principles"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#hasDefinition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#hasDefinition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#hasExplicitLink -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#hasExplicitLink">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#GDPR_Data_Protection_Principles"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#hasImplicitLink -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#hasImplicitLink">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#GDPR_Data_Protection_Principles"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#hasValueItem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#hasValueItem">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#GDPR_Data_Subject_Rights_Article -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#GDPR_Data_Subject_Rights_Article">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#GDPR_Data_Subject_Rights"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#GDPR_Data_Protection_Principles"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#GDPR_Data_Subject_Rights"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition_Value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition_Value">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#GDPR_Data_Protection_Principles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#GDPR_Data_Protection_Principles"/>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Achievement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Achievement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Self-direction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Benevolence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Benevolence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Caring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Caring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Benevolence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Concern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Concern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Conformity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Conformity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Dependability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Dependability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Benevolence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Dominance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Dominance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Face -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Face">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Hedonism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Hedonism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values"/>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Humility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Humility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Interpersonal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Interpersonal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Conformity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Nature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Nature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Personal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Personal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Resources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Resources">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Rules -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Rules">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Conformity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Self-direction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Self-direction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Societal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Societal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Stimulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Stimulation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Thought -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Thought">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Self-direction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Tolerance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Tolerance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Tradition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Tradition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#GDPR_Data_Subject_Rights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#GDPR_Data_Subject_Rights"/>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Accuracy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Accuracy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#GDPR_Data_Protection_Principles"/>
+        <Values_Map_Ontology:hasExplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power-Resources"/>
+        <Values_Map_Ontology:hasImplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Face"/>
+        <Values_Map_Ontology:hasImplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power-Dominance"/>
+        <Values_Map_Ontology:hasImplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Self-Direction-Action"/>
+        <GDPR_Ontology:Name>Accuracy</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Automated_processing_with_significant_effects_on_data_subject -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Automated_processing_with_significant_effects_on_data_subject">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Fairness"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency"/>
+        <GDPR_Ontology:Name>Automated processing with significant effects on data subject</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Categories_of_data_being_processed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Categories_of_data_being_processed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Data_Minimization"/>
+        <GDPR_Ontology:Name>Categories of data being processed</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Categories_of_recipients_data_is_shared_with -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Categories_of_recipients_data_is_shared_with">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Integrity_and_Confidentiality"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency"/>
+        <GDPR_Ontology:Name>Categories of recipients data is shared with</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Concise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Concise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency"/>
+        <GDPR_Ontology:Name>Concise</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Data_Minimization -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Data_Minimization">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#GDPR_Data_Protection_Principles"/>
+        <Values_Map_Ontology:hasExplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Benevolence-Caring"/>
+        <Values_Map_Ontology:hasExplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security-Personal"/>
+        <Values_Map_Ontology:hasExplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security-Societal"/>
+        <Values_Map_Ontology:hasExplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Concern"/>
+        <GDPR_Ontology:Name>Data Minimization</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Data_no_longer_needed_for_original_purpose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Data_no_longer_needed_for_original_purpose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Purpose_Limitation"/>
+        <GDPR_Ontology:Name>Data no longer needed for original purpose</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Easily_Accessible -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Easily_Accessible">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Fairness"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency"/>
+        <GDPR_Ontology:Name>Easily Accessible</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Erase_when_consent_was_withdrawn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Erase_when_consent_was_withdrawn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Lawfulness"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Storage_Limitation"/>
+        <GDPR_Ontology:Name>Erase when consent was withdrawn</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Erase_when_data_is_no_longer_needed_for_original_purpose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Erase_when_data_is_no_longer_needed_for_original_purpose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Purpose_Limitation"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Storage_Limitation"/>
+        <GDPR_Ontology:Name>Erase when data is no longer needed for original purpose</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Existence_of_Rights -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Existence_of_Rights">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Lawfulness"/>
+        <GDPR_Ontology:Name>Existence of Rights</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Fairness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Fairness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#GDPR_Data_Protection_Principles"/>
+        <Values_Map_Ontology:hasExplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Benevolence-Caring"/>
+        <Values_Map_Ontology:hasExplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Conformity-Rules"/>
+        <Values_Map_Ontology:hasExplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security-Societal"/>
+        <Values_Map_Ontology:hasExplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Concern"/>
+        <GDPR_Ontology:Name>Fairness</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#If_and_where_Controller_is_processing_data -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#If_and_where_Controller_is_processing_data">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Storage_Limitation"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency"/>
+        <GDPR_Ontology:Name>If and where Controller is processing data</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Information_about_Processing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Information_about_Processing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Purpose_Limitation"/>
+        <GDPR_Ontology:Name>Information about Processing</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Information_about_Third_Parties -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Information_about_Third_Parties">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Fairness"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Storage_Limitation"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Integrity_and_Confidentiality"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency"/>
+        <GDPR_Ontology:Name>Information about Third Parties</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Integrity_and_Confidentiality -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Integrity_and_Confidentiality">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#GDPR_Data_Protection_Principles"/>
+        <Values_Map_Ontology:hasImplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security-Personal"/>
+        <GDPR_Ontology:Name>Integrity and Confidentiality</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Intelligible -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Intelligible">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency"/>
+        <GDPR_Ontology:Name>Intelligible</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Lawfulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Lawfulness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#GDPR_Data_Protection_Principles"/>
+        <Values_Map_Ontology:hasExplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power-Dominance"/>
+        <Values_Map_Ontology:hasExplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Concern"/>
+        <Values_Map_Ontology:hasImplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Conformity-Rules"/>
+        <GDPR_Ontology:Name>Lawfulness</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#No_charges_levied -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#No_charges_levied">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Fairness"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Lawfulness"/>
+        <GDPR_Ontology:Name>No charges levied</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Object_to_direct_marketing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Object_to_direct_marketing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Fairness"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Lawfulness"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Purpose_Limitation"/>
+        <GDPR_Ontology:Name>Object to direct marketing</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Object_to_processing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Object_to_processing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Fairness"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Lawfulness"/>
+        <GDPR_Ontology:Name>Object to processing</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Processing_is_unlawful -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Processing_is_unlawful">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Lawfulness"/>
+        <GDPR_Ontology:Name>Processing is unlawful</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Provide_copy_of_Personal_Data -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Provide_copy_of_Personal_Data">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency"/>
+        <GDPR_Ontology:Name>Provide copy of Personal Data</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Purpose_Limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Purpose_Limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#GDPR_Data_Protection_Principles"/>
+        <Values_Map_Ontology:hasImplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Self-Direction-Action"/>
+        <GDPR_Ontology:Name>Purpose Limitation</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_of_access -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_of_access">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#GDPR_Data_Subject_Rights"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Automated_processing_with_significant_effects_on_data_subject"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Categories_of_data_being_processed"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Categories_of_recipients_data_is_shared_with"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Existence_of_Rights"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#If_and_where_Controller_is_processing_data"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Information_about_Processing"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#No_charges_levied"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_of_access_Overall"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Source_of_Data"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Storage_Period"/>
+        <GDPR_Ontology:GDPR_Data_Subject_Rights_Article rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</GDPR_Ontology:GDPR_Data_Subject_Rights_Article>
+        <GDPR_Ontology:Name>Right of access</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_of_access_Overall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_of_access_Overall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Lawfulness"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency"/>
+        <GDPR_Ontology:Name>Overall</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_basic_Information_about_processing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_basic_Information_about_processing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#GDPR_Data_Subject_Rights"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Information_about_Third_Parties"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_basic_Information_about_processing_Overall"/>
+        <GDPR_Ontology:GDPR_Data_Subject_Rights_Article rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</GDPR_Ontology:GDPR_Data_Subject_Rights_Article>
+        <GDPR_Ontology:GDPR_Data_Subject_Rights_Article rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</GDPR_Ontology:GDPR_Data_Subject_Rights_Article>
+        <GDPR_Ontology:Name>Right to basic Information about processing</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_basic_Information_about_processing_Overall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_basic_Information_about_processing_Overall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Fairness"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Purpose_Limitation"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency"/>
+        <GDPR_Ontology:Name>Overall</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_data_portability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_data_portability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#GDPR_Data_Subject_Rights"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Provide_copy_of_Personal_Data"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_data_portability_Overall"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Should_be_commonly_used_format"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Should_be_machine_readable"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Should_be_structured"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Should_support_reuse"/>
+        <GDPR_Ontology:GDPR_Data_Subject_Rights_Article rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</GDPR_Ontology:GDPR_Data_Subject_Rights_Article>
+        <GDPR_Ontology:Name>Right to data portability</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_data_portability_Overall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_data_portability_Overall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency"/>
+        <GDPR_Ontology:Name>Overall</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_erasure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_erasure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#GDPR_Data_Subject_Rights"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Erase_when_consent_was_withdrawn"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Erase_when_data_is_no_longer_needed_for_original_purpose"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_erasure_Overall"/>
+        <GDPR_Ontology:GDPR_Data_Subject_Rights_Article rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</GDPR_Ontology:GDPR_Data_Subject_Rights_Article>
+        <GDPR_Ontology:Name>Right to erasure</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_erasure_Overall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_erasure_Overall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Purpose_Limitation"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Storage_Limitation"/>
+        <GDPR_Ontology:Name>Overall</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_object -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_object">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#GDPR_Data_Subject_Rights"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Object_to_direct_marketing"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Object_to_processing"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_object_Overall"/>
+        <GDPR_Ontology:GDPR_Data_Subject_Rights_Article rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</GDPR_Ontology:GDPR_Data_Subject_Rights_Article>
+        <GDPR_Ontology:Name>Right to object</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_object_Overall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_object_Overall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Fairness"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Lawfulness"/>
+        <GDPR_Ontology:Name>Overall</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_rectification -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_rectification">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#GDPR_Data_Subject_Rights"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_rectification_Overall"/>
+        <GDPR_Ontology:GDPR_Data_Subject_Rights_Article rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</GDPR_Ontology:GDPR_Data_Subject_Rights_Article>
+        <GDPR_Ontology:Name>Right to rectification</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_rectification_Overall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_rectification_Overall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Accuracy"/>
+        <GDPR_Ontology:Name>Overall</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_restrict_processing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_restrict_processing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#GDPR_Data_Subject_Rights"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Data_no_longer_needed_for_original_purpose"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Processing_is_unlawful"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_restrict_processing_Overall"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#When_accuracy_is_contested"/>
+        <GDPR_Ontology:GDPR_Data_Subject_Rights_Article rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</GDPR_Ontology:GDPR_Data_Subject_Rights_Article>
+        <GDPR_Ontology:Name>Right to restrict processing</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_restrict_processing_Overall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_restrict_processing_Overall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Accuracy"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Lawfulness"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Purpose_Limitation"/>
+        <GDPR_Ontology:Name>Overall</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#GDPR_Data_Subject_Rights"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Concise"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Easily_Accessible"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Intelligible"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_transparency_Overall"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparent"/>
+        <GDPR_Ontology:GDPR_Data_Subject_Rights_Article rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</GDPR_Ontology:GDPR_Data_Subject_Rights_Article>
+        <GDPR_Ontology:Name>Right to transparency</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_transparency_Overall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Right_to_transparency_Overall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency"/>
+        <GDPR_Ontology:Name>Overall</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Rights_over_automated_decisions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Rights_over_automated_decisions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#GDPR_Data_Subject_Rights"/>
+        <GDPR_Ontology:hasGDPR_Data_Subject_Rights_Rights_Sub_Provisions rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Rights_over_automated_decisions_Overall"/>
+        <GDPR_Ontology:GDPR_Data_Subject_Rights_Article rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</GDPR_Ontology:GDPR_Data_Subject_Rights_Article>
+        <GDPR_Ontology:Name>Rights over automated decisions</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Rights_over_automated_decisions_Overall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Rights_over_automated_decisions_Overall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Accuracy"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Lawfulness"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Purpose_Limitation"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Fairness"/>
+        <GDPR_Ontology:Name>Overall</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Should_be_commonly_used_format -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Should_be_commonly_used_format">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency"/>
+        <GDPR_Ontology:Name>Should be commonly used format</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Should_be_machine_readable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Should_be_machine_readable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency"/>
+        <GDPR_Ontology:Name>Should be machine readable</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Should_be_structured -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Should_be_structured">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency"/>
+        <GDPR_Ontology:Name>Should be structured</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Should_support_reuse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Should_support_reuse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency"/>
+        <GDPR_Ontology:Name>Should support reuse</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Source_of_Data -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Source_of_Data">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Derived_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Lawfulness"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency"/>
+        <GDPR_Ontology:Name>Source of Data</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Storage_Limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Storage_Limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#GDPR_Data_Protection_Principles"/>
+        <Values_Map_Ontology:hasExplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power-Dominance"/>
+        <Values_Map_Ontology:hasExplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power-Resources"/>
+        <GDPR_Ontology:Name>Storage Limitation</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Storage_Period -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Storage_Period">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Storage_Limitation"/>
+        <GDPR_Ontology:Name>Storage Period</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#GDPR_Data_Protection_Principles"/>
+        <Values_Map_Ontology:hasExplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Benevolence-Caring"/>
+        <Values_Map_Ontology:hasExplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security-Personal"/>
+        <Values_Map_Ontology:hasExplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security-Societal"/>
+        <Values_Map_Ontology:hasExplicitLink rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Concern"/>
+        <GDPR_Ontology:Name>Transparency</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Transparency"/>
+        <GDPR_Ontology:Name>Transparent</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#When_accuracy_is_contested -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#When_accuracy_is_contested">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/untitled-ontology-9#Rights_Sub_Provisions"/>
+        <GDPR_Ontology:hasRights_Sub_Provisions_Direct_Link rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/GDPR_Ontology#Accuracy"/>
+        <GDPR_Ontology:Name>When accuracy is contested</GDPR_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#A_Varied_Life -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#A_Varied_Life">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>A Varied Life</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Achievement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Achievement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Achievement"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Achievement_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Ambitious/Aspiring"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Capable/Competent"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Influential/Having_An_Impact_On_People_And_Events"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Successful/Achieving_Goals"/>
+        <Values_Map_Ontology:Name>Achievement</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Achievement_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Achievement_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Success according to social standards</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Benevolence-Caring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Benevolence-Caring">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Caring"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Benevolence-Caring_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#family_security/safety_for_loved_ones"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#forgiving/willing_to_pardon"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#helpful/working_for_others_welfare"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#honest/genuine"/>
+        <Values_Map_Ontology:Name>Benevolence-Caring</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Benevolence-Caring_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Benevolence-Caring_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Devotion to the welfare of in-group members</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Benevolence-Dependability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Benevolence-Dependability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Dependability"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Benevolence-Dependability_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#loyal/faithful_to_friends"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#responsible/dependable"/>
+        <Values_Map_Ontology:Name>Benevolence-Dependability</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Benevolence-Dependability_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Benevolence-Dependability_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Being a reliable and trustworthy member of the in-group</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Conformity-Interpersonal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Conformity-Interpersonal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Interpersonal"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Conformity-Interpersonal_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#honor_parents/show_respect"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#politeness/courtesy"/>
+        <Values_Map_Ontology:Name>Conformity-Interpersonal</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Conformity-Interpersonal_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Conformity-Interpersonal_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Avoidance of upsetting or harming other people</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Conformity-Rules -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Conformity-Rules">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Rules"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Conformity-Rules_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#obedient/meet_obligations"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#self-discipline/resist_temptation"/>
+        <Values_Map_Ontology:Name>Conformity-Rules</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Conformity-Rules_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Conformity-Rules_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Compliance with rules, laws, and formal obligations</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Face -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Face">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Face"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Face_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Preserving_Public_Image/Maintaining_Face"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Social_Recognition/Respect"/>
+        <Values_Map_Ontology:Name>Face</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Face_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Face_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Maintaining ones public image and avoiding humiliation</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Hedonism -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Hedonism">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Hedonism"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Hedonism_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Pleasure"/>
+        <Values_Map_Ontology:Name>Hendonism</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Hedonism_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Hedonism_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Pleasure and sensuous gratification</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Humility -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Humility">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Humility"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Humility_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#accepting_my_portion/submitting_to_lifes_circumstances"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#humble/modest,_self-effacing"/>
+        <Values_Map_Ontology:Name>Humility</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Humility_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Humility_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Recognizing one’s insignificance in the larger scheme of things</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Pleasure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Pleasure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>Pleasure</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power-Dominance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power-Dominance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Dominance"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power-Dominance_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Authority/Right_To_Command"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Social_Power/Control_Over_Others"/>
+        <Values_Map_Ontology:Name>Power-Dominance</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power-Dominance_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power-Dominance_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Power through exercising control over people</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power-Resources -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power-Resources">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Resources"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power-Resources_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Wealth/Material_Possessions"/>
+        <Values_Map_Ontology:Name>Power-Resources</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power-Resources_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Power-Resources_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Power through control of material and social resources</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Privacy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Privacy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>Privacy</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security-Personal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security-Personal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Personal"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security-Personal_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#clean/neat,_tidy"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#family_security/safety_for_loved_ones"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#healthy/_not_sick"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#reciprocating_favors/avoiding_indebtedness"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#sense_of_belonging/feeling_others_care_about_me"/>
+        <Values_Map_Ontology:Name>Security-Personal</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security-Personal_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security-Personal_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Safety in ones immediate environment</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security-Societal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security-Societal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Societal"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security-Societal_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#national_security/nation_safe_from_enemies"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#social_order/societal_stability"/>
+        <Values_Map_Ontology:Name>Security-Societal</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security-Societal_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Security-Societal_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Safety and stability in the wider society</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Self-Direction-Action -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Self-Direction-Action">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Action"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Self-Direction-Action_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Privacy"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Choosing_Own_Goals/Own_Purposes"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Independent/Self-reliant"/>
+        <Values_Map_Ontology:Name>Self-direction-Action</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Self-Direction-Action_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Self-Direction-Action_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Freedom to determine ones own actions</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Self-Direction-Thought -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Self-Direction-Thought">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Thought"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Self-Direction-Thought_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Creativity/Imagination"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Curious/Interested"/>
+        <Values_Map_Ontology:Name>Self-direction-thought</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Self-Direction-Thought_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Self-Direction-Thought_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Freedom to cultivate ones own ideas and abilities</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Stimulation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Stimulation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Stimulation"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Stimulation_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#A_Varied_Life"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#An_Exciting_Life/Stimulating_Experiences"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Daring/Seeking_Adventure"/>
+        <Values_Map_Ontology:Name>Stimulation</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Stimulation_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Stimulation_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Excitement, novelty, and change</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Tradition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Tradition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Tradition"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Tradition_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#devout/hold_religious_faith"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#respect_tradition/preserve_customs"/>
+        <Values_Map_Ontology:Name>Tradition</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Tradition_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Tradition_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Maintaining and preserving cultural, family or religious traditions</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Concern -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Concern">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Concern"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Concern_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#equality_for_all"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#social_justice"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#world_at_peace"/>
+        <Values_Map_Ontology:Name>Universalism-Concern</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Concern_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Concern_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Commitment to equality, justice and protection for all people</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Nature -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Nature">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Nature"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Nature_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#protect_the_environment"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#unity_with_nature"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#world_beauty"/>
+        <Values_Map_Ontology:Name>Universalism-Nature</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Nature_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Nature_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Preservation of the natural environment</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Tolerance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Tolerance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Tolerance"/>
+        <Values_Map_Ontology:hasDefinition rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Tolerance_Definition"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#broadminded/tolerant"/>
+        <Values_Map_Ontology:hasValueItem rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#wisdom/mature_understanding"/>
+        <Values_Map_Ontology:Name>Universalism-Tolerance</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Tolerance_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Universalism-Tolerance_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Definition"/>
+        <Values_Map_Ontology:Definition_Value>Acceptance and understanding of those who are different from oneself</Values_Map_Ontology:Definition_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#equality_for_all -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#equality_for_all">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>equality for all</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#protect_the_environment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#protect_the_environment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>protect the environment</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#social_justice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#social_justice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>social justice</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#unity_with_nature -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#unity_with_nature">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>unity with nature</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#world_at_peace -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#world_at_peace">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>world at peace</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#world_beauty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#world_beauty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>world beauty</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Ambitious/Aspiring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Ambitious/Aspiring">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>Ambitious/Aspiring</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#An_Exciting_Life/Stimulating_Experiences -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#An_Exciting_Life/Stimulating_Experiences">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>An Exciting Life/Stimulating Experiences</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Authority/Right_To_Command -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Authority/Right_To_Command">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>Authority/Right To Command</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Capable/Competent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Capable/Competent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>Capable/Competent</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Choosing_Own_Goals/Own_Purposes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Choosing_Own_Goals/Own_Purposes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>Choosing Own Goals/Own Purposes</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Creativity/Imagination -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Creativity/Imagination">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>Creativity/Imagination</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Curious/Interested -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Curious/Interested">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>Curious/Interested</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Daring/Seeking_Adventure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Daring/Seeking_Adventure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>Daring/Seeking Adventure</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Independent/Self-reliant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Independent/Self-reliant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>Independent/Self-reliant</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Influential/Having_An_Impact_On_People_And_Events -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Influential/Having_An_Impact_On_People_And_Events">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>Influential/Having An Impact On People And Events</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Preserving_Public_Image/Maintaining_Face -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Preserving_Public_Image/Maintaining_Face">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>Preserving Public Image/Maintaining Face</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Social_Power/Control_Over_Others -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Social_Power/Control_Over_Others">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>Social Power/Control Over Others</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Social_Recognition/Respect -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Social_Recognition/Respect">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>Social Recognition/Respect</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Successful/Achieving_Goals -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Successful/Achieving_Goals">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>Successful/Achieving Goals</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Wealth/Material_Possessions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Wealth/Material_Possessions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>Wealth/Material Possessions</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#accepting_my_portion/submitting_to_lifes_circumstances -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#accepting_my_portion/submitting_to_lifes_circumstances">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>accepting my portion/submitting to lifes circumstances</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#broadminded/tolerant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#broadminded/tolerant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>broadminded/tolerant</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#clean/neat,_tidy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#clean/neat,_tidy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>clean/neat, tidy</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#devout/hold_religious_faith -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#devout/hold_religious_faith">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>devout/hold religious faith</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#family_security/safety_for_loved_ones -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#family_security/safety_for_loved_ones">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>family security/safety for loved ones</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#forgiving/willing_to_pardon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#forgiving/willing_to_pardon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>forgiving/willing to pardon</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#healthy/_not_sick -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#healthy/_not_sick">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>healthy/ not sick</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#helpful/working_for_others_welfare -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#helpful/working_for_others_welfare">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>helpful/working for others welfare</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#honest/genuine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#honest/genuine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>honest/genuine</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#honor_parents/show_respect -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#honor_parents/show_respect">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>honor parents/show respect</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#humble/modest,_self-effacing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#humble/modest,_self-effacing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>humble/modest, self-effacing</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#loyal/faithful_to_friends -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#loyal/faithful_to_friends">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>loyal/faithful to friends</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#national_security/nation_safe_from_enemies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#national_security/nation_safe_from_enemies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>national security/nation safe from enemies</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#obedient/meet_obligations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#obedient/meet_obligations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>obedient/meet obligations</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#politeness/courtesy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#politeness/courtesy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>politeness/courtesy</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#reciprocating_favors/avoiding_indebtedness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#reciprocating_favors/avoiding_indebtedness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>reciprocating favors/avoiding indebtedness</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#respect_tradition/preserve_customs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#respect_tradition/preserve_customs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>respect tradition/preserve customs</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#responsible/dependable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#responsible/dependable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>responsible/dependable</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#self-discipline/resist_temptation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#self-discipline/resist_temptation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>self-discipline/resist temptation</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#sense_of_belonging/feeling_others_care_about_me -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#sense_of_belonging/feeling_others_care_about_me">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>sense of belonging/feeling others care about me</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#social_order/societal_stability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#social_order/societal_stability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>social order/societal stability</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#wisdom/mature_understanding -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#wisdom/mature_understanding">
+        <rdf:type rdf:resource="http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#Human_Value_Value_Item"/>
+        <Values_Map_Ontology:Name>wisdom/mature understanding</Values_Map_Ontology:Name>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,2 @@
+prefix Values_Map_Ontology: <http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#>
+CONSTRUCT WHERE { ?principle Values_Map_Ontology:hasExplicitLink ?humanValue }

@@ -1,0 +1,23 @@
+Checking if there exists a Definition Value for Achievement Definition
+
+prefix Values_Map_Ontology: <http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#>
+ASK
+WHERE { Values_Map_Ontology:Achievement_Definition Values_Map_Ontology:Definition_Value ?definition }
+
+
+Value Items that belong to Face Human Value
+
+prefix Values_Map_Ontology: <http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#>
+SELECT ?value_item 
+WHERE { Values_Map_Ontology:Face Values_Map_Ontology:hasValueItem ?value_item }
+
+RDF graph that contains all GDPR Data Protection Principles and the Human Values they explicitly link to
+
+prefix Values_Map_Ontology: <http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#>
+CONSTRUCT WHERE { ?principle Values_Map_Ontology:hasExplicitLink ?humanValue }
+
+Description of nodes that have the name “Hedonism”
+
+prefix Values_Map_Ontology: <http://www.semanticweb.org/isaac/ontologies/2020/9/Values_Map_Ontology#>
+DESCRIBE ?node
+WHERE { ?node Values_Map_Ontology:Name "Hendonism" }
